@@ -1,0 +1,14 @@
+@host = http://localhost:3000
+
+###
+POST {{host}}/login
+content-type: application/json
+
+{
+    "username": "lisi",
+    "password": "123456"
+}
+
+### protected
+GET {{host}}/protected
+
