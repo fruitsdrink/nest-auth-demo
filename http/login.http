@@ -10,5 +10,7 @@ content-type: application/json
 }
 
 ### protected
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoi5p2O5ZubIiwic3ViIjoyLCJpYXQiOjE2OTExNjY3OTYsImV4cCI6MTY5MTE3MDM5Nn0.im8oDFxOyCRt-iz9YRd3Q8SBLFXzSPtY46hIccVk9J8
 GET {{host}}/protected
+Authorization: Bearer {{token}}
 
