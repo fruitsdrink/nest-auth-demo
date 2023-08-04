@@ -10,3 +10,5 @@
 ## 说明
 
 `passport-local` 使用示例
+
+[youtube](https://www.youtube.com/watch?v=_L225zpUK0M)
